@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Install BengalBoot
+Name[da]=Installer for BengalBoot
+GenericName=Installer for BengalBoot
+Comment=Install the BengalBoot to disk
+Exec=/usr/bin/bengal_polkit %f
+Icon=bengal-installer
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Settings;Security;X-GNOME-Settings-Panel;X-GNOME-SystemSettings;X-Unity-Settings-Panel;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;Utility;System;Filesystem;GNOME;Qt;KDE;
+X-AppStream-Ignore=true
